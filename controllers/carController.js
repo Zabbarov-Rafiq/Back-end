@@ -1,5 +1,4 @@
 const Car = require("../models/Car");
-console.log("🔥 NEW CONTROLLER WORKING");
 
 // GET
 const getCars = async (req, res) => {
