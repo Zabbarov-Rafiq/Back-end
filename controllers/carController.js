@@ -1,4 +1,4 @@
-const Car = require("../models/Car");
+const Car = require("../models/car");
 
 // GET
 const getCars = async (req, res) => {
