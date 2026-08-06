@@ -14,9 +14,8 @@ connectDB();
 
 // Middleware
 app.use(cors({
-    origin: "*",
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type"]
+    origin: "https://premium-cars-frontend.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
 }));
 
 app.use(express.json());
